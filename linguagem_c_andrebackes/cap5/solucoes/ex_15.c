@@ -1,11 +1,14 @@
 #include <stdio.h>
 
+#define MIN_INT -2147483648
+#define MAX_INT 2147483647
+
 int main()
 {
     int largest, smallest, number;
 
-    largest = -2147483648;
-    smallest = 2147483647;
+    largest = MIN_INT;
+    smallest = MAX_INT;
     while(1)
     {
         scanf("%d", &number);

@@ -1,22 +1,21 @@
 #include <stdio.h>
 
-
 int main()
 {
-	double harmonic_number;
 	int number;
+	int count;
 
 	printf("enter a positive integer: ");
 	scanf("%d", &number);
 
-
-	harmonic_number = 0;
+	count = 1;
 	for(int i = 1; i <= number; i++)
 	{
-		harmonic_number += 1.0 / i ;
+		for(int j = 1; j <= i; j++)
+		{
+			j == i ? printf("%d\n", count) : printf("%d ", count);
+			count++;
+		}
 	}
-
-	printf("Your H_n: %.2lf\n", harmonic_number);
-
 	return 0;
 }

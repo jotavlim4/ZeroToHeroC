@@ -8,7 +8,7 @@ int main(){
     if(A % B == 0){
         printf("Sao Multiplos\n");
     }
-    else if(B % == 0){
+    else if(B % A == 0){
         printf("Sao Multiplos\n");
     }
     else{
@@ -16,5 +16,4 @@ int main(){
     }
 
     return 0;
-    
 }

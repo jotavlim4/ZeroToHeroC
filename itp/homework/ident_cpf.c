@@ -33,7 +33,6 @@ int main()
         first = 11 - r;
     }
 	
-
     //verificação segundo digito validador
 	sum = (d2 * 10) + (d3 * 9) + (d4 * 8) + (d5 * 7) + (d6 * 6) + (d7 * 5) + (d8 * 4) + (d9 * 3) + (first * 2);
 	r = sum % 11;

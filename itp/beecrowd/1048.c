@@ -33,7 +33,7 @@ int main(){
 
     printf("Novo salario: %.2lf\n", salario);
     printf("Reajuste ganho: %.2lf\n", reajuste);
-    printf("Em percentual %.0lf %%\n", percentual * 100);
+    printf("Em percentual: %.0lf %%\n", percentual * 100);
 
     return 0;
 }

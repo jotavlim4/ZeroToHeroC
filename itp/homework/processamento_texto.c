@@ -8,6 +8,7 @@ int main(){
 
         SetConsoleCP(CP_UTF8);
         SetConsoleOutputCP(CP_UTF8); 
+    
     */
 
     int count_line, count_letters, count_space;

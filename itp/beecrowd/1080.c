@@ -9,7 +9,7 @@ int main(){
 
     largest = MIN_INT;
 
-    for(int i = 0; i < QTD; i++){
+    for(int i = 1; i <= QTD; i++){
         scanf("%d", &number);
 
         if(number > largest){

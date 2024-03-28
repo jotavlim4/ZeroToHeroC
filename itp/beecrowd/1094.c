@@ -28,8 +28,8 @@ int main(){
     printf("Total de ratos: %d\n", ratos);
     printf("Total de sapos: %d\n", sapos);
     printf("Percentual de coelhos: %.2lf %%\n", (double) 100 * coelhos / (coelhos + sapos + ratos));    
-    printf("Percentual de ratos: %.2lf\n %%", (double) 100 * ratos / (coelhos + sapos + ratos));
-    printf("Percentual de sapos: %.2lf\n %%", (double) 100 * sapos / (coelhos + sapos + ratos));
+    printf("Percentual de ratos: %.2lf %%\n", (double) 100 * ratos / (coelhos + sapos + ratos));
+    printf("Percentual de sapos: %.2lf %%\n", (double) 100 * sapos / (coelhos + sapos + ratos));
     
     return 0;
 }

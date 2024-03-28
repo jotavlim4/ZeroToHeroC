@@ -1,6 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
 
 int main(){
+    /* 
+        Se usar CMD ou PowerShell:
+
+        SetConsoleCP(CP_UTF8);
+        SetConsoleOutputCP(CP_UTF8); 
+    */
+
     int count_line, count_letters, count_space;
     int count_a, count_e, count_i, count_o, count_u;
     int line, largest_line, total_letters;

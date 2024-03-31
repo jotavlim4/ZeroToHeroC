@@ -2,20 +2,21 @@
 
 int main(){
     int t, n; 
-    int r, q;
-
-    while(scanf("%d", &t) != 0){
+    int total_order;
+    
+    while(1){
+        scanf("%d", &t); if(t == 0) break;
         for(int i = 0; i < t; i++){
             scanf("%d", &n);
 
-            r = n % 4;
-            q = n / 4;
-
-            if(q % 2 == 0){
-                q += 1;
-                r -= 1;
+            if(n % 2 == 0){
+                total_order = (n - 2) * 2 + 2;
+                printf("%d\n", total_order);
             }
-            printf("%d\n", (n - r) * 2 + r);
+            else{
+                total_order = (n - 1) * 2 + 1;
+                printf("%d\n", total_order);
+            }
         }
     }
 

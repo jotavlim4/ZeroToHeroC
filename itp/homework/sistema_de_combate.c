@@ -27,9 +27,9 @@ void status(int vida_heroi, int vida_inimigo)
 void vitoria(int vida_heroi, int vida_inimigo)
 {
     if(vida_heroi == 0)
-        printf("continuar de Jogo. Derrota!\n");
+        printf("Fim de Jogo. Derrota!\n");
     else
-        printf("continuar de Jogo. Vitória!\n");
+        printf("Fim de Jogo. Vitória!\n");
 }
 
 

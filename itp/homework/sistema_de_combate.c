@@ -27,9 +27,9 @@ void status(int vida_heroi, int vida_inimigo)
 void vitoria(int vida_heroi, int vida_inimigo)
 {
     if(vida_heroi == 0)
-        printf("Fim de Jogo. Derrota!\n");
+        printf("continuar de Jogo. Derrota!\n");
     else
-        printf("Fim de Jogo. Vitória!\n");
+        printf("continuar de Jogo. Vitória!\n");
 }
 
 
@@ -103,14 +103,14 @@ int main()
         }
         vitoria(vida_h, vida_i);
 
-        char fim;
+        char continuar;
 
         printf("Jogar novamente?[y/n]: ");
-        scanf("%c", &fim);
+        scanf("%c", &continuar);
             
-        if(fim == 's' || fim == 'S')
+        if(continuar == 's' || continuar == 'S')
             continue;
-        else if(fim == 'n' || fim == 'N')
+        else if(continuar == 'n' || continuar == 'N')
             break;
 
         putchar('\n');

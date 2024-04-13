@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define SORTED_PRIME 26
+#define SORTED_PRIME 6
 #define MAX_PRIME 1000000
 
 int is_prime(int num){

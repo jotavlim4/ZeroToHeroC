@@ -28,8 +28,8 @@ altera 4 bytes consecutivos para que correspondam ao valor lido.
 
 entao ch1 e ch2 ficariam:
 
-0100 0001 -> ch1 -> 65 -> 'A'
-0100 0010 -> ch2 -> 66 -> 'B'
+0100 0001 -> ch1 -> 65 -> 'A' (primeiro byte do inteiro lido - mais a direita)
+0100 0010 -> ch2 -> 66 -> 'B' (segundo byte do inteiro lido)
 
 */
 

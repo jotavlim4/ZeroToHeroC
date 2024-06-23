@@ -13,7 +13,7 @@ main ()
       int temp;
 
       temp = x;			//guardo o valor de x em temp.
-      x = y;			//guardo o valor de y em x, já que y < x
+      x = y;			  //guardo o valor de y em x, já que y < x
       y = temp;			//atribuo o valor que está guardado em temp(valor de x) a y
     }
 

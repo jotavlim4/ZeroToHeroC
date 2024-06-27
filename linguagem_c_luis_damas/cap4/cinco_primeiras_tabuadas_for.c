@@ -7,6 +7,7 @@ int main() {
         for(i = 1; i <= 10; i = i + 1) {
             printf("%2d * %2d = %2d\n", num, i, num * i);
         }
+        putchar('\n');
         if(num != 5) {
             printf("Digite <ENTER> para continuar...");
             getchar();

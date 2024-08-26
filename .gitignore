@@ -54,3 +54,4 @@ dkms.conf
 # Directory
 code_study/
 .vscode/
+.DS_Store

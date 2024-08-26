@@ -26,7 +26,7 @@ void start(int *v)
 }
 
 //Só vai parar de pedir números quando digitarmos um valor que está
-//entre 6 < x < 49
+//entre 6 <= x <= 49
 int read_nums_bet()
 {
     int n;
